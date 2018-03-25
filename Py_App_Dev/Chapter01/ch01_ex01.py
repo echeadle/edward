@@ -98,6 +98,7 @@ if __name__ == '__main__':
         while len(huts) < 5:
             computer_choice = random.choice(occupants)
             huts.append(computer_choice)
+            print(computer_choice)
 
         # Prompt user to select a hut
         msg = "\033[1m" + "Choose a hut number to enter (1-5): " + "\033[0m"
@@ -125,4 +126,5 @@ if __name__ == '__main__':
 
         print(dotted_line)
         keep_playing = input("Play again? Yes(y)/No(n):")
+
 
